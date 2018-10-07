@@ -23,7 +23,7 @@ Safest way: `gcc -ansi -pedantic` expects straight ANSI C and will complain abou
 
 
 
-## Structure of  a C program
+## Structure of a C program
 
 A tiny example of a C program(`sumRange.c`) could be found in the lecture notes. 
 
@@ -92,4 +92,123 @@ Note that:
         putchar(c);
     }
 ```
+
+
+
+## Overflow and the C standard
+
+We have assumed that overflow implicitly applies a (mode $2^b$) operation, but as of the C11 standard, this is defined behavior **only for unsigned integer types**.
+
+Undefined behavior is often exploited by compilers to speed up compiled code by omitting otherwise necessary instructions to force a particular outcome. This is especially true if you turn on the optimizer using the `-0` flag.
+
+
+
+## C99 fixed-width types
+
+`stdint.h` defines integer types with known size independent of machine architecture.
+
+e.g.:
+
+`int8_t`： a signed type that holds exactly 8 bits (instead of `signed char`)
+
+`uint64_t`: a 64-bit unsigned integer type (instead of `long long`)
+
+Also there are `int_least16_t` `int_fast16_t`.
+
+Advantage: if someone port your code to a new architecture, `stdint.h` should choose the right type automatically
+
+disadvantage: not universally available on all C compilers. And the built-in routines for printing and parsing integers and the mechanisms for specifying the size of an integer constant are not adapted to deal with them.
+
+For the latter problem, the larger `inttype.h` can help you solve this. See the lecture notes for details.
+
+
+
+## `size_t` and `ptrdiff_t`
+
+These two are provided in `stddef.h` to represent the return type of the `sizeof` operation and pointer subtraction. 
+
+The place where you will most often see `size_t` is as an argument to `malloc`, where it gives the number of bytes to allocate.
+
+`stdlib.h` includes `stddef.h`.
+
+
+
+## integer constants
+
+* in usual decimal notations.
+* in **octal** (base 8), when leading digit is 0.(octal is still conventional for representing Unix file permissions).
+* in **hexadecimal** (base 16), when prefixed with `0x`.
+* using a **character constant**, which is a single ASCII character or an **escape sequence** inside single quotes.
+
+
+
+You can also insist an integer constant is unsigned or long by putting a `u` or `l` after it. For `long long` constants, use `ll`.It is also permitted to write the `l` as `L` to avoid confusion if the `l` looks too much like a `1`.
+
+e.g:
+
+| `'a'`          | `int`                                   |
+| -------------- | --------------------------------------- |
+| `97`           | `int`                                   |
+| `97u`          | `unsigned int`                          |
+| `0xbea00d1ful` | `unsigned long`, written in hexadecimal |
+| `0777s`        | `short`, written in octal               |
+
+There is no way to write a binary integer directly in C. 
+
+
+
+## Naming constants
+
+The traditional approach is to use the C preprocessor.
+
+e.g:
+
+To define `EOF`, the file `/usr/include/stdio.h` includes the text:
+
+```c
+#define EOF (-1)
+```
+
+The parentheses around -1 are customary to ensure that -1 gets treated as a separate constant.
+
+**Like `typedef`s, `#define`s that are intended to be globally visible are best done in header files. **in large programs you will want to `#include` them in many source files. The usual convention is to write `#define`d names in all-caps to remind the user that they are macros and not real variables.
+
+
+
+## Integer operators
+
+Division of two integers: C99 standard specified that integer division always removes the fractional part.
+
+| `x`  | `y`  | expression | value |
+| ---- | ---- | ---------- | ----- |
+| 0011 | 0101 | `x&y`      | 0001  |
+| 0011 | 0101 | `x|y`      | 0111  |
+| 0011 | 0101 | `x^y`      | 0110  |
+| 0011 | 0101 | `~x`       | 1100  |
+
+These are mostly used for manipulating individual bits or small groups of bits inside larger words, as in the expression `x & 0x0f`, which strips off the bottom four bits stored in `x`.
+
+unsigned char x:
+
+| `x`        | `y`  | `x<<y`     | `x>>y`     |
+| ---------- | ---- | ---------- | ---------- |
+| `00000001` | `1`  | `00000010` | `00000000` |
+| `11111111` | `3`  | `11111000` | `00011111` |
+
+signed char x:
+
+| `x`        | `y`  | `x<<y`     | `x>>y`     |
+| ---------- | ---- | ---------- | ---------- |
+| `00000001` | `1`  | `00000010` | `00000000` |
+| `11111111` | `3`  | `11111000` | `11111111` |
+
+if `y` is negative, the behavior of shift operations is undefined.
+
+
+
+## Converting to/from string
+
+from: `atoi`(to int) or `atol`(to long) declared in `stdlib.h`; C99 also provides `atoll`. Returning 0 is the only way to signal an error for these functions.
+
+to: `sprintf`.
 

@@ -17,4 +17,10 @@ In this repo, I will put some notes I took while learning and the code implement
 
 ### C programming language
 
-* the C programming language
+* The C programming language-1
+* The C programming language-2
+
+### Data structure and programming techniques
+
+
+

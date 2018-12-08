@@ -22,5 +22,9 @@ In this repo, I will put some notes I took while learning and the code implement
 
 ### Data structure and programming techniques
 
+### Additional
+
+* Linux command cheatsheet
+
 
 

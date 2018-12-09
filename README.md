@@ -22,7 +22,7 @@ In this repo, I will put some notes I took while learning and the code implement
 
 ### Data structure and programming techniques
 
-### Additionalhttps://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/Linux%20Command%20cheatsheet.md
+### Additional
 
 * [Linux command cheatsheet](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/Linux%20Command%20cheatsheet.md)
 * [Makefile Tutorial](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/Makefile%20Tutorial.md)

@@ -25,6 +25,5 @@ In this repo, I will put some notes I took while learning and the code implement
 ### Additional
 
 * Linux command cheatsheet
-
-
+* Makefile Tutorial
 

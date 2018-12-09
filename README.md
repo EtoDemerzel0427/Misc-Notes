@@ -7,8 +7,8 @@ In this repo, I will put some notes I took while learning and the code implement
 
 ### Environment
 
-* Linux basics
-* Debugging tools
+* [Linux basics](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/1.Linux%20Basics%20notes.md)
+* [Debugging tools](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/1.Linux%20Basics%20notes.md)
 * [Version control](http://cs.yale.edu/homes/aspnes/classes/223/notes.html#versionControl)
 
 ### Coding tricks
@@ -17,13 +17,13 @@ In this repo, I will put some notes I took while learning and the code implement
 
 ### C programming language
 
-* The C programming language-1
-* The C programming language-2
+* [The C programming language-1](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/3.The%20C%20programming%20language-1.md)
+* [The C programming language-2](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/4.The%20C%20programming%20language-2.md)
 
 ### Data structure and programming techniques
 
-### Additional
+### Additionalhttps://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/Linux%20Command%20cheatsheet.md
 
-* Linux command cheatsheet
-* Makefile Tutorial
+* [Linux command cheatsheet](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/Linux%20Command%20cheatsheet.md)
+* [Makefile Tutorial](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/Makefile%20Tutorial.md)
 

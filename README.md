@@ -22,7 +22,7 @@ In this repo, I will put some notes I took while learning and the code implement
 
 ### Data structure and programming techniques
 
-* [Hash tables](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/5.Hash tables.md)
+* [Hash tables](https://github.com/EtoDemerzel0427/Yale-CPSC-223/blob/master/Notes/5.Hash%20tables.md)
 
 ### Additional
 

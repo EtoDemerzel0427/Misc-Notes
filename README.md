@@ -31,17 +31,17 @@ In this repo, I will put some notes I took while learning and the code implement
 
 ## Machine Learning Notes
 
-* [Decision Trees]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Machine%20Learning%20Notes/Decision%20Trees.pdf](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Machine Learning Notes/Decision Trees.pdf))
+* [Decision Trees](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Machine%20Learning%20Notes/Decision%20Trees.pdf)
 
 
 
 ## Other notes
 
-* [Linux command cheatsheet]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Linux%20Command%20cheatsheet.md](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Linux%20Command%20cheatsheet.md))
+* [Linux command cheatsheet](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Linux%20Command%20cheatsheet.md)
 
-* [Makefile Tutorial]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Makefile%20Tutorial.md](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Makefile%20Tutorial.md))
+* [Makefile Tutorial](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Makefile%20Tutorial.md)
 
-* [Windows Common Shortcuts]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Windows%20Common%20Shortcuts.md](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Windows%20Common%20Shortcuts.md))
+* [Windows Common Shortcuts](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Windows%20Common%20Shortcuts.md)
 
   
 

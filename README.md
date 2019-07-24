@@ -37,11 +37,11 @@ In this repo, I will put some notes I took while learning and the code implement
 
 ## Other notes
 
-* [Linux command cheatsheet]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Linux%20Command%20cheatsheet.md](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other Notes/Linux Command cheatsheet.md))
+* [Linux command cheatsheet]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Linux%20Command%20cheatsheet.md](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Linux%20Command%20cheatsheet.md))
 
-* [Makefile Tutorial]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Makefile%20Tutorial.md](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other Notes/Makefile Tutorial.md))
+* [Makefile Tutorial]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Makefile%20Tutorial.md](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Makefile%20Tutorial.md))
 
-* [Windows Common Shortcuts]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Windows%20Common%20Shortcuts.md](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other Notes/Windows Common Shortcuts.md))
+* [Windows Common Shortcuts]([https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Windows%20Common%20Shortcuts.md](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Other%20Notes/Windows%20Common%20Shortcuts.md))
 
   
 

@@ -1,5 +1,7 @@
 # Misc-Notes
 
+This repository contains a bunch of notes I took for different purposes, and I save them here for future references.
+
 ## CPSC Notes
 
 Notes for Yale University CPSC 223 (2018 Fall). The whole lecture notes can be found [here](http://cs.yale.edu/homes/aspnes/classes/223/notes.html).
@@ -34,6 +36,11 @@ In this repo, I will put some notes I took while learning and the code implement
 * [Decision Trees](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Machine%20Learning%20Notes/Decision%20Trees.pdf)
 
 
+
+## Penn State Summer Notes
+
+* [Weekly Report week 1](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Penn%20State%20Summer%20Notes/Weekly%20Report%20Week%201.pdf)
+* [Week 2](https://github.com/EtoDemerzel0427/Misc-Notes/blob/master/Penn%20State%20Summer%20Notes/week-2.pdf)
 
 ## Other notes
 
